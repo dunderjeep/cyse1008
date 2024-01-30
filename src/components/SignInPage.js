@@ -3,7 +3,7 @@ import {
     createUserWithEmailAndPassword,
     signInWithEmailAndPassword,
 } from "../store"
-import { useDispatch } from "react-redux";  /// fooo barakfdkdkdk
+import { useDispatch } from "react-redux";
 
 function SignInPage() {
   const dispatch = useDispatch();
