@@ -3,17 +3,8 @@ import {
     createUserWithEmailAndPassword,
     signInWithEmailAndPassword,
 } from "../store"
-import { useDispatch } from "react-redux";  /// fooo barakfdkdkdk
+import { useDispatch } from "react-redux";
 
-function SignInPage() {
-  const dispatch = useDispatch();
-  const [formData, setFormData] = useState({ email: '', password: '' });
-  const [showPassword, setShowPassword] = useState(false);
-
-  const handleSubmitSignIn = (event) => {
-    event.preventDefault();
-    dispatch(signInWithEmailAndPassword(formData));
-  };
 
   const handleSubmitRegister = (event) => {
     event.preventDefault();
